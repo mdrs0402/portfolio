@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alan Medeiros · Desenvolvedor em formação</title>
+  <meta name="description" content="Portfólio de Alan Medeiros Batista, estudante de Análise e Desenvolvimento de Sistemas em Manaus, em busca de estágio ou vaga júnior em desenvolvimento web.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a class="brand" href="#inicio">Alan<span>.dev</span></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu">
+        <span class="sr-only">Abrir menu</span>
+        <span class="bar" aria-hidden="true"></span>
+      </button>
+      <ul id="menu" class="nav-links">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre mim</a></li>
+        <li><a href="#competencias">Competências</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <!-- 1. Apresentação -->
+    <section id="inicio" class="hero container" aria-labelledby="titulo-hero">
+      <p class="eyebrow">Manaus – AM · Desenvolvedor em formação</p>
+      <h1 id="titulo-hero">Alan Medeiros Batista</h1>
+      <p class="lead">
+        Estudante de Análise e Desenvolvimento de Sistemas que gosta de transformar problemas do dia a dia
+        em soluções web simples e úteis. Busco uma oportunidade de <strong>estágio, jovem aprendiz ou vaga júnior</strong>
+        para crescer como desenvolvedor.
+      </p>
+      <div class="actions">
+        <a class="btn btn-primary" href="#projetos">Ver projetos</a>
+        <a class="btn btn-ghost" href="#contato">Entrar em contato</a>
+      </div>
+    </section>
+
+    <!-- 2. Sobre mim -->
+    <section id="sobre" class="section container" aria-labelledby="titulo-sobre">
+      <h2 id="titulo-sobre">Sobre mim</h2>
+      <div class="grid-2">
+        <div>
+          <p>
+            Curso Tecnólogo em Análise e Desenvolvimento de Sistemas no Centro Universitário Fametro,
+            com conclusão prevista para julho de 2027. Aprendi programação principalmente de forma
+            autodidata, estudando por conta própria e colocando em prática em projetos reais — de um
+            sistema para profissionalizar o “fiado” em pequenos comércios à página de divulgação de um
+            prestador de serviço local.
+          </p>
+          <p>
+            Também colaborei em projetos do Inovatech Fametro, onde tive contato com trabalho em equipe
+            e com aplicações voltadas a pesquisa e impacto social. Sei que ainda tenho muito a aprender,
+            e é isso que procuro: um ambiente onde eu possa contribuir, receber feedback e evoluir rápido.
+          </p>
+        </div>
+        <dl class="facts">
+          <div><dt>Formação</dt><dd>Tecnólogo em ADS · Fametro (2025–2027)</dd></div>
+          <div><dt>Foco</dt><dd>Desenvolvimento web / front-end</dd></div>
+          <div><dt>Idiomas</dt><dd>Português nativo · Inglês avançado</dd></div>
+          <div><dt>Disponível para</dt><dd>Estágio, jovem aprendiz ou júnior</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- 3. Competências -->
+    <section id="competencias" class="section container" aria-labelledby="titulo-comp">
+      <h2 id="titulo-comp">Competências</h2>
+      <div class="grid-2">
+        <div class="card">
+          <h3>Técnicas</h3>
+          <ul class="tags">
+            <li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>React</li><li>Vite</li>
+            <li>Node.js</li><li>Firebase</li><li>Git e GitHub</li><li>Power BI</li><li>Excel (básico)</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Socioemocionais</h3>
+          <ul class="checklist">
+            <li>Autodidatismo e disciplina para estudar sozinho</li>
+            <li>Vontade de aprender e abertura a feedback</li>
+            <li>Trabalho em equipe</li>
+            <li>Foco em resolver problemas reais de pessoas e negócios</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Projetos e experiências -->
+    <section id="projetos" class="section container" aria-labelledby="titulo-proj">
+      <h2 id="titulo-proj">Projetos</h2>
+      <div class="projects">
+        <article class="card project">
+          <p class="kicker">Projeto pessoal</p>
+          <h3>Cadernim — controle de “fiado”</h3>
+          <p>
+            Aplicação web que profissionaliza a prática do fiado em pequenos comércios, organizando
+            quem comprou, quanto deve e o que já foi pago.
+          </p>
+          <ul class="tags small"><li>React</li><li>Vite</li><li>Firebase</li></ul>
+          <a class="link" href="https://github.com/mdrs0402/Cadernin" target="_blank" rel="noopener noreferrer">
+            Ver repositório <span class="sr-only">(abre em nova aba)</span>
+          </a>
+        </article>
+
+        <article class="card project">
+          <p class="kicker">Freelance · out/2026</p>
+          <h3>Landing page — polimento automotivo</h3>
+          <p>
+            Página de divulgação para um profissional de polimento cristalizado que atende a domicílio,
+            com descrição do serviço, fotos e botão direto para o WhatsApp. Em uso real, linkada na bio
+            do Instagram do cliente.
+          </p>
+          <ul class="tags small"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+        </article>
+
+        <article class="card project">
+          <p class="kicker">Projeto pessoal</p>
+          <h3>Este portfólio</h3>
+          <p>
+            Site estático, responsivo e acessível, planejado com documentação de produto (brief, PRD,
+            arquitetura e critérios de aceite) antes da implementação.
+          </p>
+          <ul class="tags small"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>GitHub Pages</li></ul>
+          <a class="link" href="https://github.com/mdrs0402/portfolio" target="_blank" rel="noopener noreferrer">
+            Ver repositório <span class="sr-only">(abre em nova aba)</span>
+          </a>
+        </article>
+      </div>
+
+      <h3 class="subhead">Experiência</h3>
+      <ol class="timeline">
+        <li>
+          <h4>Colaborador — Inovatech Fametro</h4>
+          <p>Participação como colaborador em projetos desenvolvidos em equipe no programa de inovação da Fametro:</p>
+          <ul>
+            <li><strong>BioTrack</strong> — plataforma com gráficos e informações sobre clima e dados para apoiar pesquisas.</li>
+            <li><strong>Mover</strong> — site que ajuda pessoas com deficiência a encontrar oportunidades de emprego pensadas para elas.</li>
+          </ul>
+        </li>
+        <li>
+          <h4>Desenvolvedor freelancer — out/2026</h4>
+          <p>Criação e publicação da landing page de um serviço de polimento automotivo a domicílio.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- 5. Contato -->
+    <section id="contato" class="section container contact" aria-labelledby="titulo-contato">
+      <h2 id="titulo-contato">Contato</h2>
+      <p>Aberto a oportunidades de estágio, jovem aprendiz e vagas júnior. Vamos conversar?</p>
+      <ul class="contact-links">
+        <li><a class="btn btn-primary" href="mailto:medeirossalan24@gmail.com">medeirossalan24@gmail.com</a></li>
+        <li><a class="btn btn-ghost" href="https://linkedin.com/in/alan-medeiros-dev" target="_blank" rel="noopener noreferrer">LinkedIn <span class="sr-only">(abre em nova aba)</span></a></li>
+        <li><a class="btn btn-ghost" href="https://github.com/mdrs0402" target="_blank" rel="noopener noreferrer">GitHub <span class="sr-only">(abre em nova aba)</span></a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="container">© <span id="ano">2026</span> Alan Medeiros Batista · Feito com HTML, CSS e JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
